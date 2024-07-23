@@ -1,5 +1,11 @@
 .paragraphs-container{
   background-color: aqua;
   display: flex; 
-  /*gap: 50px;*/
+  gap: 50px;
+}
+.paragraph-style{
+
+}
+.span-container{
+  
 }

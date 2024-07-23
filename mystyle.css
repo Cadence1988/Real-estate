@@ -10,11 +10,15 @@
 .menu{
     text-decoration: none;
 }
+/*
+.house-item-container{
+   
+}*/
 .footer-container{
     display: center;
 }
 .content{
-    background-color: aqua;
+    background-color: white;
     display: flex; 
     gap: 50px;
 }
@@ -210,7 +214,127 @@ span{
 <i class="fa-brands fa-youtube"></i>
   */  
     
-    
+   /*blog*/
+   
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.blog-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+/*About*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text-content {
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-content img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+ 
     
 
     
