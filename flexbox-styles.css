@@ -1,0 +1,5 @@
+.paragraphs-container{
+  background-color: aqua;
+  display: flex; 
+  /*gap: 50px;*/
+}
